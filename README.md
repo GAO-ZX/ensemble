@@ -1,16 +1,16 @@
 # ensamble
 「heuristic computingと研究会最終課題　―ホテルキャンセルの予測―」のプログラムとデータです
 
--RandomForest、ExtraTrees、GradientBoostingによる予測   
+- RandomForest、ExtraTrees、GradientBoostingによる予測   
 「ensamble.py」  
--RandomForest、ExtraTrees、GradientBoostingの交差検証   
+- RandomForest、ExtraTrees、GradientBoostingの交差検証   
 「cv.py」  
--Stacking                                             
+- Stacking                                             
 「sta_hotel.py」  
 
--元データ                                              
+- 元データ                                              
 「hotel_bookings.csv」  
--必要な列だけを取り出し、文字列を数値化                     
+- 必要な列だけを取り出し、文字列を数値化                     
 「temp.csv」  
--行をランダムに並べ替えた                                 
+- 行をランダムに並べ替えた                                 
 「random.csv」  
