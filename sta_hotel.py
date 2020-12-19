@@ -16,6 +16,3 @@ from sklearn.ensemble import StackingClassifier
 clf=StackingClassifier(estimators=estimators,final_estimator=LogisticRegression(max_iter=600))
 clf.fit(X_train, y_train)
 print(clf.score(X_test,y_test))
-dic=dict(zip(hotel_data.columns,clf.feature_importances_))
-for item in sorted(dic.items(), key=lambda x: x[1], reverse=True):
-    print(item[0],round(item[1],4))
